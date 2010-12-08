@@ -1,0 +1,31 @@
+/* ---------->>> RESET  <<<-----------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;	font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline; }
+:focus { outline: 0; }
+body { 	line-height: 1; color: black; background: white; }
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+#block { width: 600px; height: 500px; margin: 50px auto; }
+.clear{clear:both;}
+/*---------- body
+--------------------------*/
+body, html {height: 100%;width: 100%;background: #000;}
+h1 { font-size: 1.8em;margin-bottom: 40px;color: #900;}
+#container { width:800px;height: 600px;margin:20px auto;position:relative;padding: 20px 40px 40px 40px;overflow:hidden;background: #fff;}
+/*---------- photo gallery
+-----------------------------------*/
+#photo-gallery { width: 100%; position: relative; overflow: hidden; margin: 10px auto; }
+#gallery-ul { list-style: none; position: relative; width: 515px; margin: 0 auto; }
+#gallery-ul li { display: block; height: 81px; width: 81px; float: left; margin: 10px; position: relative; border:1px solid #C0C0C0; background:#F2F2F2; overflow: hidden; }
+#gallery-ul li a { display: block; height: 75px; width: 75px; position: absolute; top:3px; left: 3px;z-index:5; }
+img.thumb { width: 100%; height: 100%; position: relative;}
+div.byline { position: absolute; bottom: 40px; left:40px;}

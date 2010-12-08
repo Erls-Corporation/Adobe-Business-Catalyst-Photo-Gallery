@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+  <album title="Demo Gallery" description="Demo Gallery" lgpath="">
+    <img src="photo-1.jpg" alt="Description Photo 1" />
+    <img src="photo-2.jpg" alt="Description Photo 2" />
+    <img src="photo-3.jpg" alt="Description Photo 3" />
+    <img src="photo-4.jpg" alt="Description Photo 4" />
+  </album>
+</gallery>
