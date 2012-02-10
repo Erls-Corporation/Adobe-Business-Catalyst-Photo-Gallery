@@ -13,10 +13,15 @@
                        var url = $(this).attr('src');
                         var alt = $(this).attr('alt');
 
-                        $('<li></li>').html('<a href="'+location+''+url+'" rel="prettyPhoto[gallery]"><img class="thumb" src="'+location+''+url+'" alt="'+alt+'" title="'+alt+'" /></a>').appendTo('#gallery-ul');
+                        $('<li></li>').html('<a href="'+location+''+url+'" class="pirobox" rel="gallery" title="'+alt+'"><img class="thumb" src="'+location+''+url+'" alt="'+alt+'" title="'+alt+'" /></a>').appendTo('#gallery-ul');
 
                     });     
-					$("a[rel^='prettyPhoto']").prettyPhoto();             
+          
+          		$().piroBox_ext({
+									piro_speed : 700,
+									bg_alpha : 0.5,
+									piro_scroll : true // pirobox always positioned at the center of the page
+							});  
                 }
 				
             });
